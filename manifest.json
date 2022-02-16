@@ -1,0 +1,7 @@
+{
+	"name": "Steveplays.HostHighlight",
+	"version_number": "1.0.0",
+	"website_url": "https://github.com/Steveplays28/HostHighlight",
+	"description": "A Northstar mod that highlights the server host in the chat.",
+	"dependencies": []
+}

@@ -1,0 +1,20 @@
+{
+	"Name": "Steveplays.HostHighlight",
+	"Description": "A Northstar mod that highlights the server host in the chat",
+	"Authors": ["Steveplays28"],
+	"Contacts": [
+		"Steveplays#9659 (Discord)",
+		"Steveplays28 (Github/Twitter/Reddit)"
+	],
+	"Version": "1.0.0",
+	"RequiredOnClient": false,
+	"Scripts": [
+		{
+			"Path": "chathook.nut",
+			"RunOn": "SERVER",
+			"ServerCallback": {
+				"After": "SP_AddCallback"
+			}
+		}
+	]
+}
