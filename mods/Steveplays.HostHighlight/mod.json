@@ -11,9 +11,9 @@
 	"Scripts": [
 		{
 			"Path": "chathook.nut",
-			"RunOn": "SERVER",
-			"ServerCallback": {
-				"After": "SP_AddCallback"
+			"RunOn": "MP",
+			"ClientCallback": {
+				"After": "HostHighlightInit"
 			}
 		}
 	]
